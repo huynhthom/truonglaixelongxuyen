@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'v0.37.2',
+        'version' => '0.37.2.0',
+        'reference' => '4b947ec92d0195756709e5b563569cf48aef1e09',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'v0.37.2',
+            'version' => '0.37.2.0',
+            'reference' => '4b947ec92d0195756709e5b563569cf48aef1e09',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'stripe/stripe-php' => array(
+            'pretty_version' => 'v9.0.0',
+            'version' => '9.0.0.0',
+            'reference' => 'e405c178c2167f568e654296ad6b20eb461761b5',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../stripe/stripe-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wpcharitable/charitable-licenses' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => 'd44b2dea0c544183b9ba09ab0c13bacdcb90e571',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wpcharitable/charitable-licenses',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
